@@ -1,0 +1,108 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\topmargin=-1in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\begin{document}
+\title{\textbf {RECUPERACIÓN PARCIAL 1}}
+\author{Sebastian Gomez}
+\maketitle
+
+\begin{center}
+\textbf{PREGUNTA #1}
+\end{center}
+
+\begin{itemize}
+\item El conjunto de Nodos es 1, 2, 3, 4, 5, 6, 7
+\item $<1,2>$ $<1,3>$ $<1,4>$ $<1,5>$ $<1,6>$ $<2,3>$ $<2,4>$ $<2,5>$ $<2,6>$ $<3,4>$ $<3,5>$ $<3,6>$ $<3,7>$ $<4,7>$ $<5,6>$ $<5,7>$ $<6,7>$
+\end{itemize}
+
+\begin{center}
+\textbf{PREGUNTA #2}
+\end{center}
+
+\[
+\sum_{i=1}^{n}i= \frac{n (n + 1)}{2}
+\]
+
+\begin{itemize}
+\item Caso Base
+\item n = 1
+\item \[
+\sum_{i=1}^{1}i= \frac{1 (1 + 1)}{2}
+\]
+\item \[
+\sum_{i=1}^{1}i= 1
+\]
+
+\item Caso Inductivo
+\item \[
+\sum_{i=1}^{n}i= \frac{n (n + 1)}{2}
+\]
+
+\item n = k
+\item \[
+\sum_{i=1}^{k}i= \frac{k (k + 1)}{2}
+\]
+
+\item n = k + 1
+
+\item \[
+\sum_{i=1}^{k+1}i= \frac{(k + 1) ((k + 1) + 1)}{2}
+\]
+
+\item \[
+\sum_{i=1}^{k}i + (k + 1) = \frac{(k + 1)(k + 2)}{2}
+\]
+\item \[ \frac{k (k + 1) + 2(k + 1)}{2} = \frac{(k + 1)(k + 2)}{2}
+\]
+
+\item  \[ \frac{k^2 + k + 2k + 2}{2} = \frac{k^2 + k + 2k + 2}{2}
+\]
+\item Queda demostrado al ser igual.
+\end{itemize}
+
+\begin{center}
+\textbf{PREGUNTA #3}
+\end{center}
+
+\begin{itemize}
+\item Para todo numero a + b si a = 0 entonces a + b = b. Y si a = s(i) entonces a + b = s (i + b)
+\item Entoces para la Sumatoria 
+\end{itemize}
+
+\begin{center}
+\textbf{PREGUNTA #4}
+\end{center}
+
+\begin{itemize}
+\item a = s(0)
+\item a = s(s(0))
+\item a + b = b + a
+\item s(0) + s(s(0)) = s(s(0)) + s(0)
+\item s(s(0) + s(0)) = s(s(s(0) + 0
+\item s(s(s(0) + 0 = s(s(s(0) + 0
+\item s(s(s(0) = s(s(s(0)
+\item Esto quiere decir que ambos son iguales.
+\end{itemize}
+
+\begin{center}
+\textbf{PREGUNTA #5}
+\end{center}
+\begin{itemize}
+\item $((n + n) \geq n ) = s(0)$
+\item $s(0) + s(0) \geq s(0)$
+\item $s(s(0)) \geq s(0)$
+\item $s(s(0)) - s(0) \geq 0$
+\item $s(0) \geq 0$
+\end{itemize}
+
+
+
+\end{document}
